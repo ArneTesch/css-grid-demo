@@ -1,0 +1,31 @@
+.main {
+    min-height: calc(100vh - 9rem);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    letter-spacing: 1px;
+}
+
+.navbar-main {
+    height: 4.5rem;
+    width: 100vw;
+    padding: 1.5rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 100;
+    background-color: var(--purple);
+    display: grid;
+    grid-column: 1 / -1;
+}
+
+.navbar-items {
+    max-width: 129.6rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    justify-items: center;
+}
+
+.navbar__item {
+    text-decoration: none;
+    color: white;
+}
